@@ -1,0 +1,2 @@
+C:\EscritorioCremona\Visual-Repositorio\Js_Curso-Dalto\obj\Debug\Js_Curso-Dalto.esproj.SuggestedBindingRedirects.cache
+C:\EscritorioCremona\Visual-Repositorio\Js_Curso-Dalto\obj\Debug\Js_Curso-Dalto.esproj.CoreCompileInputs.cache
