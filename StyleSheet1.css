@@ -1,0 +1,47 @@
+﻿body
+{
+   
+}
+
+.row1{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.row nav {
+    position: relative;
+    z-index:10
+}
+
+.formu{
+    padding:15px;
+}
+.tabla{
+    position:relative;
+    padding-left:15px;
+}
+
+.form-control{
+    resize:none;
+}
+
+.btnAceptar{
+    background:#098a23;
+    border:none;
+}
+
+.btnCancelar{
+    background:transparent;
+    color:gray;
+    border:none;
+}
+
+.btnCancelar:hover{
+    color:white;
+    background:gray;
+}
+/*.row1{
+    display: block;
+    position:absolute;
+    z-index:9;
+}*/

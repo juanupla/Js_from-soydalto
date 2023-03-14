@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Js_Curso-Dalto", "Js_Curso-Dalto.esproj", "{5510DD85-88F0-407A-95FB-1590EF0CF678}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bootstrap", "bootstrap", "{70464F9E-0985-42B6-9CCD-B00A220FB037}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+		StyleSheet1.css = StyleSheet1.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

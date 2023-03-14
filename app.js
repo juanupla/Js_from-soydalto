@@ -102,14 +102,33 @@ var texto = `
 .toUpperCase(); pasa toda la cadena a mayuscula  <br>
 .toString(); convierte la cadena a string  <br>
 .trim(); elimina los espacios en la cadena  <br> 
-.trimEnd(); Elimina los espacios del final de la cadena  <br>
-.trimStart(); Elimina los espacios en el comienzo de la cadena  <br>
+.trimEnd(); elimina los espacios del final de la cadena  <br>
+.trimStart(); elimina los espacios en el comienzo de la cadena  <br>
+<br>
+<br>
+ -------------- metodos de arrays ----------------- <br>
+<br>
+___Transformadores: <br> <br>
+.pop();  elimina el ultimo elemento del array y lo devuelve; <br>
+.shift(); elimina el primer elemento del array y lo devuelve; <br>
+.push("nombre"); agrega un elemento al final array y devuelve el largo del mismo en numeros. se pueden agregar mas de un elemento separado por comas. <br>
+.reverse(); invierte el orden de los elementos del array <br>
+.unshift("nombre","apellido"); agrega uno o mas elementos (separados por coma) al principio del array -es parecido a push- <br>
+.short(); ordena la cadena de menor a mayor o, en caso de ser string, de manera alfabetica <br>
+.splice(1,2,"juan","pedro");  sirve para eliminar elementos de un array a travez de 2 parametros. el primero indica la posicion en la que arranca y en el segundo parametro la cantidad de items a elminiar.
+Pero luego, se pueden seguir usando la cantidad de parametros que deseados y se agregaran entre el espacio donde fueron eliminados los anteriores<br>
+<br>
+___Accesores: <br> <br>
 
+.join();
+.slice();
 
+<br> <br>
 
-
+___De repeticion: <br> <br>
+.filter();
+foreach();
 `;
-
 
 
 document.write(texto);
